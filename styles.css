@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffdfd3;
+    margin: 0;
+    padding: 20px;
+}
+
+.recipe-menu {
+    margin-bottom: 20px;
+    text-align: center;
+    background-image: 'https://www.shutterstock.com/image-vector/food-kitchen-seamless-pattern-pale-600nw-276735071.jpg';
+}
+
+.recipe-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #d291bc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recipe-menu li:hover {
+    background-color: #957dad;
+}
+
+.recipe-card {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .recipe-menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
